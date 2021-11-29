@@ -10,14 +10,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-// see: https://blog.csdn.net/weixin_39640298/article/details/84503428
 # pragma once
 # include <atomic>
 # include <fstream>
 # include <future>
 # include <string>
 
-namespace bustub {
+namespace cmudb {
 
 /**
  * DiskManager takes care of the allocation and deallocation of pages within a database. It performs the reading and

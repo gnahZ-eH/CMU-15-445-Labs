@@ -58,6 +58,4 @@ private:
     size_t pair_count;          // key-value number in table
     std::vector<std::shared_ptr<Bucket>> directory_;  // smart pointer for auto memory management
 };
-
-
 }
